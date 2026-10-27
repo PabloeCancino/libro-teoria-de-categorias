@@ -64,12 +64,19 @@ La bibliografía se organiza por uso: textos base para estudiar, lecturas para c
 
 ---
 
-## 🏛️ Artículos originales sobre mónadas y dimensiones superiores
+## 📜 Los orígenes de la teoría (1942–1945)
+
+La teoría de categorías nace en estos artículos de Samuel Eilenberg y Saunders Mac Lane. El último es un testimonio posterior del propio Mac Lane.
 
 17. **Eilenberg, S., & Mac Lane, S. (1942).** "Natural isomorphisms in group theory". *Proceedings of the National Academy of Sciences of the USA*, 28(12), 537–543. Punto de partida: la nota donde aparecen por primera vez los isomorfismos naturales, en el contexto de los grupos de homomorfismos y de extensiones. En línea: [DOI 10.1073/pnas.28.12.537](https://doi.org/10.1073/pnas.28.12.537).
-18. **Eilenberg, S., & Mac Lane, S. (1942).** "Group extensions and homology". *Annals of Mathematics* (2), 43(4), 757–831. El trabajo de fondo del que surge la nota anterior.
+18. **Eilenberg, S., & Mac Lane, S. (1942).** "Group extensions and homology". *Annals of Mathematics* (2), 43(4), 757–831. El trabajo de fondo del que surge la nota anterior; ahí se estudian sistemáticamente los grupos Hom y Ext.
 19. **Eilenberg, S., & Mac Lane, S. (1945).** "General theory of natural equivalences". *Transactions of the AMS*, 58, 231–294. El artículo que inaugura la teoría en general: define categoría, funtor y transformación natural. En línea: [AMS](https://www.ams.org/tran/1945-058-00/S0002-9947-1945-0013131-6/).
 20. **Mac Lane, S. (1997).** "The PNAS way back then". *Proceedings of the National Academy of Sciences of the USA*, 94(12), 5983–5985. Testimonio del propio Mac Lane sobre la nota de 1942 y la publicación rápida de ideas nuevas. Acceso libre: [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC33670).
+
+---
+
+## 🏛️ Artículos originales sobre mónadas y dimensiones superiores
+
 21. **Godement, R. (1958).** *Topologie algébrique et théorie des faisceaux*. Hermann. Primera aparición de la "construcción estándar".
 22. **Huber, P. J. (1961).** "Homotopy theory in general categories". *Mathematische Annalen*, 144, 361–385. Toda adjunción produce una mónada.
 23. **Kleisli, H. (1965).** "Every standard construction is induced by a pair of adjoint functors". *Proceedings of the AMS*, 16, 544–546. En línea: [AMS](https://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4).
