@@ -2,7 +2,7 @@
 
 Este apéndice propone formalizaciones breves para verificar, al final de cada bloque, que lo estudiado se entendió. **No es un curso de Lean**: supone que el lector ya escribe demostraciones en Lean 4.
 
-> **⚠️ Advertencia de verificación.** El código de este apéndice se escribió para la biblioteca de categorías de Mathlib, pero **no se compiló** durante la preparación del libro: el entorno de redacción no tenía acceso a Lean ni a la caché de Mathlib. Los nombres de Mathlib cambian con el tiempo. Antes de usar un fragmento, compílelo con su versión de Mathlib; si un nombre no existe, búsquelo con `#check`, `exact?` o en la documentación en línea de Mathlib (`Mathlib.CategoryTheory`).
+> **⚠️ Advertencia de verificación.** El código de este apéndice se escribió para la biblioteca de categorías de Mathlib, pero **no se compiló** durante la preparación del libro: el entorno de redacción no tenía acceso a Lean ni a la caché de Mathlib. Los nombres de Mathlib cambian con el tiempo. Antes de usar un fragmento, compílelo con su versión de Mathlib; si un nombre no existe, búsquelo con `#check`, `exact?` o en la [documentación en línea de Mathlib](https://leanprover-community.github.io/mathlib4_docs/) (`Mathlib.CategoryTheory`).
 
 ---
 

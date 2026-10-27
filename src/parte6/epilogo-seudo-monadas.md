@@ -62,10 +62,10 @@ Tres preguntas para llevar a la plática:
 
 ## 6. Por dónde continuar
 
-- **Teoría de 2-categorías:** Johnson y Yau, *2-Dimensional Categories* (Oxford, 2021); Lack, "A 2-categories companion" (2010).
-- **Mónadas formales y seudo-mónadas:** Street, "The formal theory of monads" (1972); Lack, "A coherent approach to pseudomonads" (2000); Marmolejo, "Distributive laws for pseudomonads" (1999).
-- **Categorías de dimensión infinita:** Riehl y Verity, *Elements of ∞-Category Theory* (Cambridge, 2022).
+- **Teoría de 2-categorías:** Johnson y Yau, *2-Dimensional Categories* (Oxford, 2021); Lack, "A 2-categories companion" (2010), [libre en arXiv](https://arxiv.org/abs/math/0702535).
+- **Mónadas formales y seudo-mónadas:** Street, "The formal theory of monads" (1972); Lack, "A coherent approach to pseudomonads" (2000); Marmolejo, "Distributive laws for pseudomonads" (1999), [de acceso libre en TAC](https://www.maths.tcd.ie/EMIS/journals/TAC/volumes/1999/n5/5-05abs.html).
+- **Categorías de dimensión infinita:** Riehl y Verity, *Elements of ∞-Category Theory* (Cambridge, 2022), con [versión libre de la autora](https://math.jhu.edu/~eriehl/elements.pdf).
 - **Categorías trenzadas e invariantes cuánticos:** Kassel, *Quantum Groups* (Springer, 1995); Turaev, *Quantum Invariants of Knots and 3-Manifolds* (De Gruyter).
-- **Probabilidad categórica:** Fritz, "A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics" (2020).
+- **Probabilidad categórica:** Fritz, "A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics" (2020), [libre en arXiv](https://arxiv.org/abs/1908.07021).
 
 Las referencias completas y comentadas están en el [Apéndice D](../apendices/d-bibliografia.md).

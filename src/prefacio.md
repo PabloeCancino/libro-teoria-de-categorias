@@ -43,4 +43,4 @@ El lector previsto trabaja en teoría de nudos y en estadística aplicada al com
 
 ## 🙏 Agradecimientos
 
-A la tradición de textos abiertos que hizo posible este trabajo, en especial los libros de Tom Leinster y de Emily Riehl. Este texto sigue en buena medida el orden de exposición de Riehl. Las deudas específicas se señalan en la [bibliografía comentada](apendices/d-bibliografia.md).
+A la tradición de textos abiertos que hizo posible este trabajo, en especial los libros de Tom Leinster, [*Basic Category Theory*](https://arxiv.org/abs/1612.09375), y de Emily Riehl, [*Category Theory in Context*](https://math.jhu.edu/~eriehl/context), ambos con versión libre en línea. Este texto sigue en buena medida el orden de exposición de Riehl. Las deudas específicas se señalan en la [bibliografía comentada](apendices/d-bibliografia.md).
