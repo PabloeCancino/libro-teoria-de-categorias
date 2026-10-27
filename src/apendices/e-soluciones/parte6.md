@@ -246,7 +246,7 @@ Aquí \\([i = j]\\) vale 1 si \\(i = j\\) y 0 si no. Así, \\(R = s \circ D\\), 
 Ambos lados envían \\(e\_i \otimes e\_j \otimes e\_k\\) a
 
 \\[
-q^{[i=j] + [i=k] + [j=k]}\\; e\_k \otimes e\_j \otimes e\_i,
+q^{[i=j] + [i=k] + [j=k]}\ e\_k \otimes e\_j \otimes e\_i,
 \\]
 
 porque cada lado compara una vez cada par de índices. Como coinciden en una base, son iguales. El argumento vale para cualquier \\(R = s \circ D\\) con \\(D\\) diagonal y de pesos no nulos. \\(R\\) es invertible porque \\(q \neq 0\\): \\(R^{-1}(e\_i \otimes e\_j) = q^{-[i=j]}\\, e\_j \otimes e\_i\\).
