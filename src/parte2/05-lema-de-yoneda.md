@@ -155,7 +155,7 @@ Para el funtor "pares de flechas" del Ejemplo 5.2, el elemento universal es el p
 
 El lema de Yoneda tiene una lectura que va más allá de la técnica: **un objeto matemático es completamente conocido a través de sus relaciones con todos los demás objetos**. Las flechas \\(X \to A\\) se llaman a veces **elementos generalizados** de \\(A\\) "con forma \\(X\\)": puntos (forma \\(\\{\star\\}\\)), caminos (forma \\([0,1]\\)), pares de elementos (forma \\(\\{\star, \star'\\}\\)). Conocer todos los elementos generalizados de \\(A\\), junto con la manera en que cambian al cambiar la forma, es conocer \\(A\\).
 
-> **📝 Para pensar.** En psicometría se dice que un constructo latente solo se conoce por sus manifestaciones: las respuestas a los reactivos. El lema de Yoneda es la versión exacta de esa intuición **en un contexto donde se dispone de todas las "pruebas" posibles y de su comportamiento bajo todas las transformaciones**. ¿Qué hipótesis del lema fallan en un instrumento real, con finitos reactivos y error de medición? La analogía ayuda a recordar el lema; no transfiere ningún resultado a la medición.
+> **📝 Para pensar.** En psicometría se sostiene que un constructo latente solo puede conocerse a través de sus manifestaciones: las respuestas a los reactivos. El lema de Yoneda es la versión exacta de esa intuición **en un contexto donde se dispone de todas las "pruebas" posibles y de su comportamiento bajo todas las transformaciones**. ¿Qué hipótesis del lema fallan en un instrumento real, con finitos reactivos y error de medición? La analogía ayuda a recordar el lema; no transfiere ningún resultado a la medición.
 
 ---
 
