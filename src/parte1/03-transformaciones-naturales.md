@@ -2,7 +2,7 @@
 
 ## Hilo conductor
 
-Todo espacio vectorial de dimensión finita \\(V\\) es isomorfo a su dual \\(V^{\ast}\\) y también a su doble dual \\(V^{\ast\ast}\\). Sin embargo, los matemáticos dicen que el segundo isomorfismo es "canónico" y el primero no: para construir \\(V \cong V^{\ast}\\) hay que elegir una base, mientras que \\(V \to V^{\ast\ast}\\), \\(v \mapsto (\varphi \mapsto \varphi(v))\\), no requiere elecciones. Eilenberg y Mac Lane inventaron la teoría de categorías, en 1945, precisamente para dar sentido preciso a esa diferencia. La noción que buscaban es la de **transformación natural**, el tema de este capítulo.
+Todo espacio vectorial de dimensión finita \\(V\\) es isomorfo a su dual \\(V^{\ast}\\) y también a su doble dual \\(V^{\ast\ast}\\). Sin embargo, los matemáticos dicen que el segundo isomorfismo es "canónico" y el primero no: para construir \\(V \cong V^{\ast}\\) hay que elegir una base, mientras que \\(V \to V^{\ast\ast}\\), \\(v \mapsto (\varphi \mapsto \varphi(v))\\), no requiere elecciones. Samuel Eilenberg y Saunders Mac Lane se toparon con esa diferencia en su trabajo sobre extensiones de grupos y homología. En 1942 publicaron una nota, "Natural isomorphisms in group theory", que ya trataba los isomorfismos naturales, y en 1945 el artículo "General theory of natural equivalences", donde definieron en general categoría, funtor y transformación natural. La teoría de categorías nació, así, para dar sentido preciso a la palabra "natural". La noción que buscaban es la de **transformación natural**, el tema de este capítulo.
 
 ## Ideas previas que se cristalizan
 

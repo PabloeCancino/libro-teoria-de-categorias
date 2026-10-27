@@ -66,28 +66,31 @@ La bibliografía se organiza por uso: textos base para estudiar, lecturas para c
 
 ## 🏛️ Artículos originales sobre mónadas y dimensiones superiores
 
-17. **Eilenberg, S., & Mac Lane, S. (1945).** "General theory of natural equivalences". *Transactions of the AMS*, 58, 231–294. El artículo que inaugura la teoría. En línea: [AMS](https://www.ams.org/tran/1945-058-00/S0002-9947-1945-0013131-6/).
-18. **Godement, R. (1958).** *Topologie algébrique et théorie des faisceaux*. Hermann. Primera aparición de la "construcción estándar".
-19. **Huber, P. J. (1961).** "Homotopy theory in general categories". *Mathematische Annalen*, 144, 361–385. Toda adjunción produce una mónada.
-20. **Kleisli, H. (1965).** "Every standard construction is induced by a pair of adjoint functors". *Proceedings of the AMS*, 16, 544–546. En línea: [AMS](https://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4).
-21. **Eilenberg, S., & Moore, J. C. (1965).** "Adjoint functors and triples". *Illinois Journal of Mathematics*, 9, 381–398. En línea: [Project Euclid](https://projecteuclid.org/euclid.ijm/1256068141).
-22. **Manes, E. (1969).** "A triple theoretic construction of compact algebras". En *Seminar on Triples and Categorical Homology Theory*, Lecture Notes in Mathematics 80, Springer. Monadicidad de los espacios compactos de Hausdorff.
-23. **Street, R. (1972).** "The formal theory of monads". *Journal of Pure and Applied Algebra*, 2, 149–168.
-24. **Blackwell, R., Kelly, G. M., & Power, A. J. (1989).** "Two-dimensional monad theory". *Journal of Pure and Applied Algebra*, 59, 1–41.
-25. **Marmolejo, F. (1999).** "Distributive laws for pseudomonads". *Theory and Applications of Categories*, 5(5), 81–147. Acceso libre: [Theory and Applications of Categories](https://www.maths.tcd.ie/EMIS/journals/TAC/volumes/1999/n5/5-05abs.html).
-26. **Lack, S. (2000).** "A coherent approach to pseudomonads". *Advances in Mathematics*, 152, 179–202.
-27. **Johnson, N., & Yau, D. (2021).** *2-Dimensional Categories*. Oxford University Press.
-28. **Riehl, E., & Verity, D. (2022).** *Elements of ∞-Category Theory*. Cambridge University Press. Versión libre de la autora: [PDF](https://math.jhu.edu/~eriehl/elements.pdf).
+17. **Eilenberg, S., & Mac Lane, S. (1942).** "Natural isomorphisms in group theory". *Proceedings of the National Academy of Sciences of the USA*, 28(12), 537–543. Punto de partida: la nota donde aparecen por primera vez los isomorfismos naturales, en el contexto de los grupos de homomorfismos y de extensiones. En línea: [DOI 10.1073/pnas.28.12.537](https://doi.org/10.1073/pnas.28.12.537).
+18. **Eilenberg, S., & Mac Lane, S. (1942).** "Group extensions and homology". *Annals of Mathematics* (2), 43(4), 757–831. El trabajo de fondo del que surge la nota anterior.
+19. **Eilenberg, S., & Mac Lane, S. (1945).** "General theory of natural equivalences". *Transactions of the AMS*, 58, 231–294. El artículo que inaugura la teoría en general: define categoría, funtor y transformación natural. En línea: [AMS](https://www.ams.org/tran/1945-058-00/S0002-9947-1945-0013131-6/).
+20. **Mac Lane, S. (1997).** "The PNAS way back then". *Proceedings of the National Academy of Sciences of the USA*, 94(12), 5983–5985. Testimonio del propio Mac Lane sobre la nota de 1942 y la publicación rápida de ideas nuevas. Acceso libre: [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC33670).
+21. **Godement, R. (1958).** *Topologie algébrique et théorie des faisceaux*. Hermann. Primera aparición de la "construcción estándar".
+22. **Huber, P. J. (1961).** "Homotopy theory in general categories". *Mathematische Annalen*, 144, 361–385. Toda adjunción produce una mónada.
+23. **Kleisli, H. (1965).** "Every standard construction is induced by a pair of adjoint functors". *Proceedings of the AMS*, 16, 544–546. En línea: [AMS](https://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4).
+24. **Eilenberg, S., & Moore, J. C. (1965).** "Adjoint functors and triples". *Illinois Journal of Mathematics*, 9, 381–398. En línea: [Project Euclid](https://projecteuclid.org/euclid.ijm/1256068141).
+25. **Manes, E. (1969).** "A triple theoretic construction of compact algebras". En *Seminar on Triples and Categorical Homology Theory*, Lecture Notes in Mathematics 80, Springer. Monadicidad de los espacios compactos de Hausdorff.
+26. **Street, R. (1972).** "The formal theory of monads". *Journal of Pure and Applied Algebra*, 2, 149–168.
+27. **Blackwell, R., Kelly, G. M., & Power, A. J. (1989).** "Two-dimensional monad theory". *Journal of Pure and Applied Algebra*, 59, 1–41.
+28. **Marmolejo, F. (1999).** "Distributive laws for pseudomonads". *Theory and Applications of Categories*, 5(5), 81–147. Acceso libre: [Theory and Applications of Categories](https://www.maths.tcd.ie/EMIS/journals/TAC/volumes/1999/n5/5-05abs.html).
+29. **Lack, S. (2000).** "A coherent approach to pseudomonads". *Advances in Mathematics*, 152, 179–202.
+30. **Johnson, N., & Yau, D. (2021).** *2-Dimensional Categories*. Oxford University Press.
+31. **Riehl, E., & Verity, D. (2022).** *Elements of ∞-Category Theory*. Cambridge University Press. Versión libre de la autora: [PDF](https://math.jhu.edu/~eriehl/elements.pdf).
 
 ---
 
 ## 💻 Formalización
 
-29. **The Mathlib Community.** *Mathlib*, biblioteca de matemáticas para Lean 4, módulos `Mathlib.CategoryTheory`. [Documentación en línea](https://leanprover-community.github.io/mathlib4_docs/) y [repositorio](https://github.com/leanprover-community/mathlib4).
+32. **The Mathlib Community.** *Mathlib*, biblioteca de matemáticas para Lean 4, módulos `Mathlib.CategoryTheory`. [Documentación en línea](https://leanprover-community.github.io/mathlib4_docs/) y [repositorio](https://github.com/leanprover-community/mathlib4).
  *Comentario:* La biblioteca contiene la mayor parte de este libro: Yoneda, límites, adjunciones, mónadas, categorías monoidales y trenzadas. Los nombres cambian con las versiones; consulte siempre la documentación vigente.
 
 ---
 
 ## 🎥 La plática que motivó el libro
 
-30. **Marmolejo, F. (2026).** "Mónadas". Conferencia en el Auditorio Nápoles Gándara del Instituto de Matemáticas de la UNAM, 8 de octubre de 2026. Video disponible en el canal de YouTube del Instituto de Matemáticas de la UNAM: [https://www.youtube.com/watch?v=qM15LBUzZh4](https://www.youtube.com/watch?v=qM15LBUzZh4).
+33. **Marmolejo, F. (2026).** "Mónadas". Conferencia en el Auditorio Nápoles Gándara del Instituto de Matemáticas de la UNAM, 8 de octubre de 2026. Video disponible en el canal de YouTube del Instituto de Matemáticas de la UNAM: [https://www.youtube.com/watch?v=qM15LBUzZh4](https://www.youtube.com/watch?v=qM15LBUzZh4).
