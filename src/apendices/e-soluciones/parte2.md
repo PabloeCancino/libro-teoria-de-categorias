@@ -107,7 +107,7 @@ En un orden parcial, el producto de una familia \\((a\_i)\_{i \in I}\\) es su í
 
 **Coproducto: el mínimo común múltiplo, que también siempre existe.** Sea \\(m\mathbb{Z} = \bigcap\_i a\_i\mathbb{Z}\\), con \\(m \geq 0\\); es un ideal por ser intersección de ideales. Como \\(m\mathbb{Z} \subseteq a\_i\mathbb{Z}\\), \\(a\_i \mid m\\). Si \\(a\_i \mid n\\) para todo \\(i\\), entonces \\(n \in \bigcap\_i a\_i\mathbb{Z} = m\mathbb{Z}\\) y \\(m \mid n\\). Así, \\(m\\) es el coproducto.
 
-La novedad respecto del caso finito: \\(m\\) es \\(0\\) con frecuencia. Ocurre exactamente cuando la familia no tiene un múltiplo común positivo, es decir, cuando aparecen infinitos primos o un primo con exponentes no acotados. Por ejemplo:
+La novedad respecto del caso finito: \\(m\\) es \\(0\\) con frecuencia. Ocurre exactamente cuando la familia no tiene un múltiplo común positivo, es decir, cuando \\(0\\) pertenece a la familia o aparecen infinitos primos o un primo con exponentes no acotados. Por ejemplo:
 
 - la familia de todos los primos tiene producto \\(1\\) y coproducto \\(0\\);
 - la familia \\(2, 4, 8, \dots\\) tiene producto \\(2\\) y coproducto \\(0\\);

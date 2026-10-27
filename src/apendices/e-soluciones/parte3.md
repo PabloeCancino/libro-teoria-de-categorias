@@ -170,7 +170,7 @@ b \circ f \circ w = h \circ a \circ w = h \circ x = b \circ z, \qquad g \circ f 
 
 Por la unicidad en el cuadrado derecho, \\(f \circ w = z\\). Unicidad de \\(w\\): si \\(a \circ w' = x\\) y \\(f \circ w' = z\\), entonces \\(g \circ f \circ w' = g \circ z\\), y la unicidad en el exterior da \\(w' = w\\). \\(\blacksquare\\)
 
-En \\(\mathbf{Set}\\) el lema dice que tomar imagen inversa a lo largo de \\(h\\) y luego a lo largo de \\(k\\) es lo mismo que hacerlo a lo largo de \\(k \circ h\\): \\((k \circ h)^{-1}(T) = h^{-1}(k^{-1}(T))\\).
+En \\(\mathbf{Set}\\) el lema dice que tomar imagen inversa a lo largo de \\(k\\) y luego a lo largo de \\(h\\) es lo mismo que hacerlo a lo largo de \\(k \circ h\\): \\((k \circ h)^{-1}(T) = h^{-1}(k^{-1}(T))\\).
 
 **Idea clave:** la hipótesis sobre el cuadrado derecho se usa siempre para lo mismo: para pasar de un cono sobre \\(F\\) a una flecha hacia \\(B\\), o para concluir que dos flechas hacia \\(B\\) son iguales.
 
