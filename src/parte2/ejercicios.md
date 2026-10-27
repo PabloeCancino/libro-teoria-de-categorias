@@ -1,5 +1,8 @@
 # Ejercicios de la Parte II
 
+> **Soluciones completas.** Las soluciones de todos los ejercicios de niveles 1 y 2 de esta parte están en el [Apéndice E, Parte II](../apendices/e-soluciones/parte2.md). Las de abajo son solo una selección.
+
+
 ---
 
 ## 📝 Nivel 1. Verificación
