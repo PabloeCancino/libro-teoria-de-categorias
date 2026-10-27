@@ -141,6 +141,31 @@ Si \\(TX\\) es el conjunto de expresiones formales, una **álgebra** es un conju
 
 La primera ecuación dice que evaluar una expresión trivial devuelve el elemento. La segunda dice que evaluar por partes (primero las subexpresiones, luego el resultado) es lo mismo que aplanar y evaluar de una vez.
 
+En diagramas, los axiomas de álgebra (izquierda y centro) y la condición de morfismo (derecha) son:
+
+\\[
+\require{AMScd}
+\begin{CD}
+A @>{\eta\_A}>> TA \\\\
+@| @VV{a}V \\\\
+A @= A
+\end{CD}
+\qquad
+\begin{CD}
+TTA @>{T(a)}>> TA \\\\
+@V{\mu\_A}VV @VV{a}V \\\\
+TA @>>{a}> A
+\end{CD}
+\qquad
+\begin{CD}
+TA @>{T(h)}>> TB \\\\
+@V{a}VV @VV{b}V \\\\
+A @>>{h}> B
+\end{CD}
+\\]
+
+Compare el cuadrado central con el de asociatividad de la Definición 10.1: tiene la misma forma, con \\(a\\) en el lugar de \\(\mu\\). Un álgebra es "una mónada aplicada a un solo objeto".
+
 > **Teorema 10.11 (Las álgebras de la mónada de listas son los monoides).**
 > \\(\mathbf{Set}^L \cong \mathbf{Mon}\\).
 >

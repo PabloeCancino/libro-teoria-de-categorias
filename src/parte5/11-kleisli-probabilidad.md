@@ -25,7 +25,24 @@ El Capítulo 10 mostró que toda mónada proviene de una adjunción: la de su ca
 >
 > y la identidad de \\(X\\) es \\(\eta\_X\colon X \to TX\\).
 
-La composición se lee así: \\(f\\) produce una expresión en \\(Y\\); \\(T(g)\\) sustituye cada elemento de \\(Y\\) por una expresión en \\(Z\\); \\(\mu\\) aplana el resultado. Que \\(\mathcal{C}\_T\\) es una categoría se sigue directamente de las leyes de la mónada: la ley de unidad da la neutralidad de \\(\eta\\), y la asociatividad de \\(\mu\\), junto con su naturalidad, da la asociatividad de \\(\circ\_T\\) (Ejercicio 3 de la Parte V).
+La composición se lee así: \\(f\\) produce una expresión en \\(Y\\); \\(T(g)\\) sustituye cada elemento de \\(Y\\) por una expresión en \\(Z\\); \\(\mu\\) aplana el resultado. Como cadena de flechas de \\(\mathcal{C}\\):
+
+\\[
+X \xrightarrow{\ \ f\ \ } TY \xrightarrow{\ T(g)\ } TTZ \xrightarrow{\ \mu\_Z\ } TZ.
+\\]
+
+Para la asociatividad, sean además \\(h\colon Z \to TW\\). Tras \\(T(g) \circ f\colon X \to TTZ\\), los dos compuestos \\(h \circ\_T (g \circ\_T f)\\) y \\((h \circ\_T g) \circ\_T f\\) recorren los dos bordes de este diagrama, desde \\(TTZ\\) hasta \\(TW\\):
+
+\\[
+\require{AMScd}
+\begin{CD}
+TTZ @>{TT(h)}>> TTTW @>{T(\mu\_W)}>> TTW \\\\
+@V{\mu\_Z}VV @V{\mu\_{TW}}VV @VV{\mu\_W}V \\\\
+TZ @>>{T(h)}> TTW @>>{\mu\_W}> TW
+\end{CD}
+\\]
+
+El borde superior seguido de la derecha es \\((h \circ\_T g) \circ\_T f\\); la izquierda seguida del borde inferior es \\(h \circ\_T (g \circ\_T f)\\). El cuadrado izquierdo conmuta por la **naturalidad** de \\(\mu\\) y el derecho por la **asociatividad** de \\(\mu\\). Por lo tanto, los dos compuestos coinciden. Que \\(\mathcal{C}\_T\\) es una categoría se sigue directamente de las leyes de la mónada: la ley de unidad da la neutralidad de \\(\eta\\), y la asociatividad de \\(\mu\\), junto con su naturalidad, da la asociatividad de \\(\circ\_T\\) (Ejercicio 3 de la Parte V).
 
 > **Ejemplo 11.2 (Relaciones).**
 > En la categoría de Kleisli de \\(\mathcal{P}\\), una flecha \\(X \rightsquigarrow Y\\) es una función \\(f\colon X \to \mathcal{P}(Y)\\), es decir, una relación \\(R = \\{(x,y) \mid y \in f(x)\\}\\). La composición de Kleisli es

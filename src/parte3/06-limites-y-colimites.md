@@ -38,6 +38,18 @@ La categoría \\(\mathcal{J}\\) es el "molde": dice cuántos objetos hay y qué 
 > D(u) \circ \lambda\_j = \lambda\_k.
 > \\]
 >
+> Es decir, para cada flecha \\(u\\) del molde, el triángulo
+>
+> \\[
+> \begin{array}{ccc}
+> & X & \\\\
+> {\scriptstyle \lambda\_j} \swarrow & & \searrow {\scriptstyle \lambda\_k} \\\\
+> D(j) & \xrightarrow[\ D(u)\ ]{} & D(k)
+> \end{array}
+> \\]
+>
+> conmuta. El vértice \\(X\\) "mira" todo el diagrama de manera compatible.
+>
 > Un **límite** de \\(D\\) es un cono \\((L, (\pi\_j))\\) universal: para todo cono \\((X, (\lambda\_j))\\) existe una única flecha \\(h\colon X \to L\\) con \\(\pi\_j \circ h = \lambda\_j\\) para todo \\(j\\). Se escribe \\(L = \lim D\\).
 
 Como con el producto, la propiedad universal se condensa en una biyección natural en \\(X\\):

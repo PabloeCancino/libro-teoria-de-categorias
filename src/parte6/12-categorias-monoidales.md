@@ -67,6 +67,25 @@ En la última fila, el tensor de dos núcleos \\(f\colon X \rightsquigarrow Y\\)
 > \\[
 > m \circ (m \otimes 1) = m \circ (1 \otimes m) \circ \alpha, \qquad m \circ (e \otimes 1) = \lambda, \qquad m \circ (1 \otimes e) = \rho.
 > \\]
+>
+> Omitiendo \\(\alpha\\), \\(\lambda\\) y \\(\rho\\) (Teorema 12.2), los axiomas son los diagramas
+>
+> \\[
+> \require{AMScd}
+> \begin{CD}
+> M \otimes M \otimes M @>{1 \otimes m}>> M \otimes M \\\\
+> @V{m \otimes 1}VV @VV{m}V \\\\
+> M \otimes M @>>{m}> M
+> \end{CD}
+> \qquad
+> \begin{CD}
+> M @>{e \otimes 1}>> M \otimes M \\\\
+> @| @VV{m}V \\\\
+> M @= M
+> \end{CD}
+> \\]
+>
+> y el análogo con \\(1 \otimes e\\). Compare con el cuadrado de la Definición 10.1.
 
 > **Ejemplo 12.5.**
 >

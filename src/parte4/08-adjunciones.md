@@ -33,6 +33,16 @@ Si \\(g\colon FX \to Y\\), su imagen bajo la biyección se denota \\(\overline{g
 
 En palabras: **transponer conmuta con componer por los lados**. Esta regla es lo único que se necesita para manipular adjunciones.
 
+En diagrama, las dos filas se corresponden flecha por flecha: lo que se compone a los lados de \\(g\\) en \\(\mathcal{D}\\) se compone, transportado por \\(F\\) o por \\(G\\), a los lados de \\(\overline{g}\\) en \\(\mathcal{C}\\).
+
+\\[
+\begin{array}{rccccccc}
+\text{en } \mathcal{D}\colon & FX' & \xrightarrow{\ F(k)\ } & FX & \xrightarrow{\ \ g\ \ } & Y & \xrightarrow{\ \ h\ \ } & Y' \\\\
+& & & & \Big\updownarrow {\scriptstyle \text{transponer}} & & & \\\\
+\text{en } \mathcal{C}\colon & X' & \xrightarrow{\ \ k\ \ } & X & \xrightarrow{\ \ \overline{g}\ \ } & GY & \xrightarrow{\ G(h)\ } & GY'
+\end{array}
+\\]
+
 > **📝 Para pensar.** La notación \\(F \dashv G\\) no es simétrica: el adjunto izquierdo aparece a la izquierda del símbolo hom, en el primer argumento. Para recordar el sentido, revisa con el par libre y olvidadizo: ¿cuál de los dos aparece en \\(\mathcal{D}(FX, Y)\\)? ¿Puede ser el olvidadizo adjunto izquierdo de algo?
 
 ---
@@ -137,6 +147,25 @@ Para el grupo libre, \\(\eta\_X\colon X \to UF(X)\\) es la inclusión de los gen
 > \\]
 >
 > Componente por componente: \\(\varepsilon\_{FX} \circ F(\eta\_X) = 1\_{FX}\\) y \\(G(\varepsilon\_Y) \circ \eta\_{GY} = 1\_{GY}\\).
+>
+> En diagramas, las dos identidades dicen que estos triángulos conmutan (el lado inferior es la identidad):
+>
+> \\[
+> \require{AMScd}
+> \begin{CD}
+> FX @>{F(\eta\_X)}>> FGFX \\\\
+> @| @VV{\varepsilon\_{FX}}V \\\\
+> FX @= FX
+> \end{CD}
+> \qquad\qquad
+> \begin{CD}
+> GY @>{\eta\_{GY}}>> GFGY \\\\
+> @| @VV{G(\varepsilon\_Y)}V \\\\
+> GY @= GY
+> \end{CD}
+> \\]
+>
+> Se leen así: "agregar estructura libre con \\(\eta\\) y luego evaluarla con \\(\varepsilon\\) no cambia nada". Para el grupo libre, la primera dice que si cada letra de una palabra se ve como una palabra de una letra, y luego se multiplica, se recupera la palabra original.
 
 *Demostración (de la adjunción a las identidades).* La naturalidad de la transposición da las fórmulas
 
@@ -160,7 +189,17 @@ La otra identidad triangular es dual. La naturalidad de \\(\eta\\) y \\(\varepsi
 
 donde se usó la naturalidad de \\(\varepsilon\\) y luego la primera identidad triangular. \\(\blacksquare\\)
 
-La fórmula \\(\overline{g} = G(g) \circ \eta\_X\\) dice que **toda flecha \\(X \to GY\\) se factoriza de manera única a través de \\(\eta\_X\\)**. Es decir, \\(\eta\_X\\) es una flecha universal de \\(X\\) a \\(G\\), en el sentido del Capítulo 4. Esto lleva al siguiente teorema.
+La fórmula \\(\overline{g} = G(g) \circ \eta\_X\\) dice que **toda flecha \\(X \to GY\\) se factoriza de manera única a través de \\(\eta\_X\\)**. En diagrama, para \\(f\colon X \to GY\\):
+
+\\[
+\begin{array}{ccc}
+X & \xrightarrow{\ \eta\_X\ } & GFX \\\\
+& {\scriptstyle f} \searrow & \Big\downarrow {\scriptstyle G(\overline{f})} \\\\
+& & GY
+\end{array}
+\\]
+
+La flecha \\(\overline{f}\colon FX \to Y\\) es única. Es el mismo dibujo de la Definición 4.9. Es decir, \\(\eta\_X\\) es una flecha universal de \\(X\\) a \\(G\\), en el sentido del Capítulo 4. Esto lleva al siguiente teorema.
 
 > **Teorema 8.10 (Adjuntos a partir de flechas universales).**
 > Un funtor \\(G\colon \mathcal{D} \to \mathcal{C}\\) tiene adjunto izquierdo si y solo si para cada objeto \\(X\\) de \\(\mathcal{C}\\) existe una flecha universal \\((FX, \eta\_X)\\) de \\(X\\) a \\(G\\). En tal caso, \\(F\\) se extiende de manera única a un funtor con \\(F \dashv G\\).

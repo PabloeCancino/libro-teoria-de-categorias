@@ -53,6 +53,21 @@ Por eso tiene sentido hablar de **el** adjunto de un funtor. Por ejemplo, cualqu
 
 La prueba consiste en **transponer, usar la propiedad universal y transponer de regreso**. Es el patrón típico de los argumentos con adjunciones.
 
+El diagrama de la prueba tiene dos pisos. Arriba, en \\(\mathcal{C}\\), está el cono dado; abajo, en \\(\mathcal{D}\\), su transpuesto. La flecha \\(h\\) se obtiene abajo, donde existe el límite, y se sube transponiendo:
+
+\\[
+\begin{array}{rccccc}
+\text{en } \mathcal{C}\colon & X & \xrightarrow{\ \ \overline{h}\ \ } & GL & \xrightarrow{\ G(\pi\_j)\ } & GD(j) \\\\
+& \Big\updownarrow & & & & \\\\
+\text{en } \mathcal{D}\colon & FX & \xrightarrow{\ \ h\ \ } & L & \xrightarrow{\ \ \pi\_j\ \ } & D(j)
+\end{array}
+\qquad
+\begin{array}{l}
+G(\pi\_j) \circ \overline{h} = \lambda\_j, \\\\
+\pi\_j \circ h = \overline{\lambda\_j}.
+\end{array}
+\\]
+
 > **Ejemplo 9.3 (Consecuencias inmediatas).**
 >
 > | Adjunción | Lo que se preserva | Hecho conocido que resulta |

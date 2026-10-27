@@ -112,6 +112,24 @@ Los productos describen un objeto por las flechas **que llegan** a él. Hay otra
 > \\[
 > U(\bar{f}) \circ \eta = f.
 > \\]
+>
+> En diagrama: la flecha \\(f\\) es la que se da; \\(\bar{f}\\) es la que existe y es única.
+>
+> \\[
+> \begin{array}{ccc}
+> C & \xrightarrow{\ \eta\ } & UA \\\\
+> & {\scriptstyle f} \searrow & \Big\downarrow {\scriptstyle U(\bar{f})} \\\\
+> & & UD
+> \end{array}
+> \qquad\qquad
+> \begin{array}{c}
+> A \\\\
+> \Big\downarrow {\scriptstyle \exists !\\, \bar{f}} \\\\
+> D
+> \end{array}
+> \\]
+>
+> El triángulo de la izquierda vive en \\(\mathcal{C}\\); la flecha de la derecha, en \\(\mathcal{D}\\).
 
 > **Ejemplo 4.10 (Objetos libres).**
 > Sea \\(U\colon \mathbf{Vect}\_k \to \mathbf{Set}\\) el olvidadizo y \\(X\\) un conjunto. La inclusión de la base \\(\eta\colon X \to U(k^{(X)})\\) es universal: toda función \\(f\colon X \to UW\\) se extiende de manera única a una transformación lineal \\(\bar{f}\colon k^{(X)} \to W\\). Es el principio conocido de que **una transformación lineal se define libremente en una base**. Lo mismo vale para el grupo libre (un homomorfismo se define libremente en los generadores) y para el monoide libre \\(L(X)\\).
