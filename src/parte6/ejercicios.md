@@ -1,5 +1,7 @@
 # Ejercicios de la Parte VI
 
+> **Soluciones completas.** Las soluciones de todos los ejercicios de niveles 1 y 2 de esta parte están en el [Apéndice E, Parte VI](../apendices/e-soluciones/parte6.md). Las de abajo son solo una selección.
+
 ---
 
 ## 📝 Nivel 1. Verificación

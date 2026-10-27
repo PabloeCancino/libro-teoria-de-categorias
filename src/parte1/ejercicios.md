@@ -1,5 +1,7 @@
 # Ejercicios de la Parte I
 
+> **Soluciones completas.** Las soluciones de todos los ejercicios de niveles 1 y 2 de esta parte están en el [Apéndice E, Parte I](../apendices/e-soluciones/parte1.md). Las de abajo son solo una selección.
+
 Los ejercicios están graduados. El nivel 1 verifica definiciones; el nivel 2 pide construir objetos o demostraciones; el nivel 3 conecta con otras áreas. Al final hay soluciones seleccionadas.
 
 ---

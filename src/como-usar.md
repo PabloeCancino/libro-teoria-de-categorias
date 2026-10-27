@@ -27,7 +27,7 @@ Al final de cada parte hay un bloque de ejercicios en tres niveles:
 | **2. Construcción** | Producir un objeto o una demostración nueva | Construir un adjunto, demostrar una propiedad universal |
 | **3. Exploración** | Conectar con otras áreas o abrir preguntas | Relacionar un concepto con nudos o con modelos probabilísticos |
 
-Cada bloque incluye **soluciones seleccionadas**. Conviene intentar el ejercicio antes de leerlas: una solución leída antes de tiempo enseña mucho menos que un intento fallido.
+Cada bloque incluye **soluciones seleccionadas**, y el [Apéndice E](apendices/e-soluciones.md) contiene las soluciones completas de todos los ejercicios de niveles 1 y 2. Conviene intentar el ejercicio antes de leerlas: una solución leída antes de tiempo enseña mucho menos que un intento fallido.
 
 ---
 

@@ -21,9 +21,9 @@ El hilo del libro es que cada concepto categórico **cristaliza conceptos prelim
 4. **Adjunciones:** libre y olvidadizo, cuantificadores como adjuntos, unidad y counidad; los adjuntos derechos preservan límites.
 5. **Mónadas:** álgebras de Eilenberg–Moore, categoría de Kleisli, monadicidad y mónadas de probabilidad.
 6. **Hacia los nudos:** categorías monoidales, diagramas de cuerdas, categorías trenzadas, trenzas, enredos, el corchete de Kauffman y un epílogo sobre seudo-mónadas.
-7. **Apéndices:** plan de estudio de 12 semanas con puntos de control, formalizaciones en Lean 4 con Mathlib, glosario español–inglés y bibliografía comentada.
+7. **Apéndices:** plan de estudio de 12 semanas con puntos de control, formalizaciones en Lean 4 con Mathlib, glosario español–inglés, bibliografía comentada y soluciones completas de los ejercicios de niveles 1 y 2.
 
-Cada parte cierra con ejercicios graduados en tres niveles (verificación, construcción y exploración) y soluciones seleccionadas.
+Cada parte cierra con ejercicios graduados en tres niveles (verificación, construcción y exploración) y soluciones seleccionadas. El Apéndice E reúne las soluciones completas de todos los ejercicios de niveles 1 y 2.
 
 ---
 
