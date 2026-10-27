@@ -1,0 +1,29 @@
+[book]
+title = "Teoría de Categorías desde Cero"
+authors = ["Dr. Pablo Eduardo Cancino Marentes"]
+description = "Texto de estudio autodidacta de teoría de categorías: de las categorías y funtores al lema de Yoneda, las adjunciones, las mónadas y las categorías trenzadas que conducen a la teoría de nudos."
+language = "es"
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+mathjax-support = true
+git-repository-url = "https://github.com/PabloeCancino/libro-teoria-de-categorias"
+site-url = "/libro-teoria-de-categorias/"
+
+[output.html.search]
+enable = true
+limit-results = 20
+use-boolean-and = true
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.html.print]
+enable = true

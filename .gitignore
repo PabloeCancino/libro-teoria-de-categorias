@@ -1,0 +1,9 @@
+/book
+.DS_Store
+Thumbs.db
+*.bak
+*~
+__pycache__/
+*.pyc
+.vscode/
+.idea/
