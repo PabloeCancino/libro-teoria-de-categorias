@@ -45,6 +45,10 @@
 - [Epílogo. Seudo-mónadas y dimensiones superiores](parte6/epilogo-seudo-monadas.md)
 - [Ejercicios de la Parte VI](parte6/ejercicios.md)
 
+# Autoevaluación final
+
+- [Auto-examen final](evaluacion/autoexamen-final.md)
+
 ---
 
 # Apéndices
