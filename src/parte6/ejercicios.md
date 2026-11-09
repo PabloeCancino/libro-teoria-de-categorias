@@ -38,7 +38,7 @@
 
 12. **Funtorialidad de un invariante propio.** Tome un invariante combinatorio de nudos con el que trabaje (o el número de enlace, como caso de prueba). Responda: (a) ¿puede definirse también para enredos con extremos? (b) si \\(T\_1\\) y \\(T\_2\\) son enredos componibles, ¿se calcula el invariante de \\(T\_2 \circ T\_1\\) a partir de datos de \\(T\_1\\) y \\(T\_2\\)? (c) ¿qué estructura algebraica deben tener esos datos para que la composición funcione? Si las tres respuestas son afirmativas, el invariante es **candidato** a ser funtorial. Para aplicar el Teorema 13.8 hace falta además que respete el producto tensorial, los cruces, los duales y el giro, es decir, que provenga de un funtor de listón.
 
-13. **Seudo-álgebras.** Escriba con detalle qué datos y qué ecuaciones tiene una seudo-álgebra de la 2-mónada de listas del Ejemplo E.2, y compruebe que el pentágono aparece como una de sus condiciones de coherencia.
+13. **Seudo-álgebras.** Escriba con detalle qué datos y qué ecuaciones tiene una seudo-álgebra de la 2-mónada de listas del Ejemplo E.2 del Epílogo, y compruebe que el pentágono aparece como una de sus condiciones de coherencia.
 
 ---
 

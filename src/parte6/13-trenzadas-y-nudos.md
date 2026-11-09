@@ -2,7 +2,7 @@
 
 ## Hilo conductor
 
-En una categoría simétrica, intercambiar dos factores dos veces es no hacer nada. En el espacio de tres dimensiones, en cambio, dos hebras que se cruzan dos veces pueden quedar enlazadas, según cuál pase por encima. Este capítulo conserva el isomorfismo de intercambio pero abandona la ecuación \\(s \circ s = 1\\). El resultado es una **categoría monoidal trenzada**. La categoría de trenzas resulta ser la categoría trenzada **libre** sobre un objeto, y la de enredos, la categoría **de listón** libre. De ahí sale un método general para construir invariantes de nudos: elegir una categoría trenzada con duales y un objeto en ella. Es la culminación del libro y el punto de contacto con la teoría de nudos.
+En una categoría simétrica, intercambiar dos factores dos veces es no hacer nada. En el espacio de tres dimensiones, en cambio, dos hebras que se cruzan dos veces pueden quedar enlazadas, según cuál pase por encima. Este capítulo conserva el isomorfismo de intercambio pero abandona la ecuación \\(s \circ s = 1\\). El resultado es una **categoría monoidal trenzada**. La categoría de trenzas resulta ser la categoría trenzada **libre** sobre un objeto, y la de enredos orientados enmarcados, la categoría **de listón** libre. De ahí sale un método general para construir invariantes de nudos: elegir una categoría trenzada con duales y un objeto en ella. Es la culminación del libro y el punto de contacto con la teoría de nudos.
 
 ## Ideas previas que se cristalizan
 

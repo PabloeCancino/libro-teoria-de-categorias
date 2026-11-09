@@ -14,8 +14,8 @@ El plan supone **unas 5 horas por semana**: tres sesiones de 90 minutos y una de
 | 4 | 5 | Funtores representables y lema de Yoneda | Parte II: 4, 6, 7, 8 | Enunciado y prueba de Yoneda con palabras propias |
 | 5 | 6 | Diagramas, límites y colímites | Parte III: 1–5 | Un límite y un colímite calculados explícitamente |
 | 6 | 7 | Existencia y preservación de límites | Parte III: 6, 7, 8, 10 | Por qué el olvidadizo de grupos preserva límites |
-| 7 | 8 | Adjunciones: definición y ejemplos | Parte IV: 1, 2, 3, 5 | Tres adjunciones conocidas reconocidas como tales |
-| 8 | 9 | Adjunciones, límites y equivalencias | Parte IV: 4, 6, 9, 10 | Por qué los adjuntos izquierdos preservan colímites |
+| 7 | 8 | Adjunciones: definición y ejemplos | Parte IV: 1, 3, 5 | Tres adjunciones conocidas reconocidas como tales |
+| 8 | 9 | Adjunciones, límites y equivalencias | Parte IV: 2, 4, 6, 9, 10 | Por qué los adjuntos izquierdos preservan colímites |
 | 9 | 10 | Mónadas y sus álgebras | Parte V: 1, 2, 5, 6, 8 | Una mónada descrita como funtor, unidad y multiplicación |
 | 10 | 11 | Kleisli, monadicidad y probabilidad | Parte V: 3, 4, 7, 9, 11 | Comparación de las álgebras de tres mónadas |
 | 11 | 12 | Categorías monoidales | Parte VI: 1, 2, 5, 6, 7 | Qué es un monoide en una categoría monoidal |

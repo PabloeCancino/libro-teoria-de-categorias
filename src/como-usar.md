@@ -10,7 +10,7 @@ Todos los capítulos siguen la misma secuencia:
 
 1. **Hilo conductor.** Un párrafo que dice de dónde se viene y qué pregunta responde el capítulo.
 2. **Ideas previas que se cristalizan.** Los conceptos de álgebra, topología o lógica que el capítulo va a reunir bajo un solo nombre.
-3. **Desarrollo.** Definiciones, ejemplos, proposiciones y teoremas, numerados con un solo contador por capítulo (Definición 4.1, Ejemplo 4.2, Teorema 4.3...). Así cualquier referencia se localiza de inmediato.
+3. **Desarrollo.** Definiciones, ejemplos, proposiciones y teoremas, numerados con un solo contador por capítulo (Definición 4.1, Proposición 4.2, Ejemplo 4.3...). Así cualquier referencia se localiza de inmediato.
 4. **Recuadros "Para pensar".** Preguntas para detenerse. No tienen respuesta en el texto: su función es que el lector observe su propio razonamiento.
 5. **Lo que cristalizó.** Un resumen de lo que el capítulo deja establecido.
 6. **Puente.** Una o dos frases sobre la pregunta que queda abierta y que el capítulo siguiente atiende.
